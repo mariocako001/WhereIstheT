@@ -1,0 +1,276 @@
+<resources>
+    <string name="app_name">Where Is the T</string>
+
+    <string-array name="TrainLines" >
+        <item>-- Select a train --</item>
+        <item>Red Line</item>
+        <item>Orange Line</item>
+        <item>Green Line</item>
+        <item>Blue Line</item>
+
+    </string-array>
+
+    <string-array name="empty">
+
+    </string-array>
+
+    
+    <string-array name="RedLine" >
+
+        <item>Alewife</item>
+        <item>Davis</item>
+        <item>Porter</item>
+        <item>Harvard</item>
+        <item>Central</item>
+        <item>Kendall/MIT</item>
+        <item>Charles/MGH</item>
+        <item>Park St</item>
+        <item>Downtown Crossing</item>
+        <item>South Station</item>
+        <item>Broadway</item>
+        <item>Andrew</item>
+        <item>JFK/UMASS</item>
+        <item>North Quincy</item>
+        <item>Wollaston</item>
+        <item>Quincy Center</item>
+        <item>Quincy Adams</item>
+        <item>Braintree</item>
+        <item>Savin Hill</item>
+        <item>Fields Corner</item>
+        <item>Shawmut</item>
+        <item>Ashmont</item>
+
+    </string-array>
+
+
+    <string-array name="GreenLine" >
+
+        <item>Lechmere</item>
+        <item>Science Park</item>
+        <item>North Station</item>
+        <item>Haymarket</item>
+        <item>Government Center</item>
+        <item>Park St</item>
+        <item>Boylston</item>
+        <item>Arlington</item>
+        <item>Copley</item>
+        <item>Hynes Convention Ctr</item>
+        <item>Kenmore</item>
+        <item>Blandford St</item>
+        <item>BU East</item>
+        <item>BU Central</item>
+        <item>BU West</item>
+        <item>St. Paul St</item>
+        <item>Pleasant St</item>
+        <item>Babcock St</item>
+        <item>Packards Corner</item>
+        <item>Harvard Ave</item>
+        <item>Allston St</item>
+        <item>Warren St</item>
+        <item>Washington St</item>
+        <item>Sutherland Rd</item>
+        <item>Chiswick Rd</item>
+        <item>Chestnut Hill Ave</item>
+        <item>South St</item>
+        <item>Boston College</item>
+        <item>Hawes St</item>
+        <item>St. Marys St</item>
+        <item>Kent St</item>
+        <item>St. Paul St</item>
+        <item>Coolidge Corner</item>
+        <item>Summit Ave</item>
+        <item>Brandon Hall</item>
+        <item>Fairbanks St</item>
+        <item>Washington Sq</item>
+        <item>Tappan St</item>
+        <item>Dean Rd</item>
+        <item>Englewood Ave</item>
+        <item>Cleveland Circle</item>
+        <item>Fenway</item>
+        <item>Longwood</item>
+        <item>Brookline Village</item>
+        <item>Brookline Hills</item>
+        <item>Beaconsfield</item>
+        <item>Reservoir</item>
+        <item>Chestnut Hill</item>
+        <item>Newton Centre</item>
+        <item>Newton Highlands</item>
+        <item>Eliot</item>
+        <item>Waban</item>
+        <item>Woodland</item>
+        <item>Riverside</item>
+        <item>Prudential</item>
+        <item>Symphony</item>
+        <item>Northeastern</item>
+        <item>Museum of Fine Arts</item>
+        <item>Longwood Medical Area</item>
+        <item>Brigham Circle</item>
+        <item>Fenwood Rd</item>
+        <item>Mission Park</item>
+        <item>Riverway</item>
+        <item>Back of the Hill</item>
+        <item>Heath</item>
+
+    </string-array>
+
+    <string-array name="OrangeLine" >
+
+
+        <item>Oak Grove</item>
+        <item>Malden Center</item>
+        <item>Wellington</item>
+        <item>Assembly</item>
+        <item>Sullivan Sq</item>
+        <item>Community College</item>
+        <item>North Station</item>
+        <item>Haymarket</item>
+        <item>State</item>
+        <item>Downtown Crossing</item>
+        <item>Chinatown</item>
+        <item>Tufts Medical Center</item>
+        <item>Back Bay</item>
+        <item>Mass. Ave</item>
+        <item>Ruggles</item>
+        <item>Roxbury Crossing</item>
+        <item>Jackson Sq</item>
+        <item>Stony Brook</item>
+        <item>Green St</item>
+        <item>Forest Hills</item>
+
+    </string-array>
+
+    <string-array name="BlueLine" >
+
+        <item>Bowdoin</item>
+        <item>Government Center</item>
+        <item>State</item>
+        <item>Aquarium</item>
+        <item>Maverick</item>
+        <item>Airport</item>
+        <item>Wood Island</item>
+        <item>Orient Heights</item>
+        <item>Suffolk Downs</item>
+        <item>Beachmont</item>
+        <item>Revere Beach</item>
+        <item>Wonderland</item>
+
+    </string-array>
+
+    <!--red line-->
+    <integer name="Alewife_i">	            70061	</integer>
+    <integer name="Alewife_o">	            70062	</integer>
+    <integer name="Davis_o">	            70063	</integer>
+    <integer name="Davis_i">	            70064	</integer>
+    <integer name="Porter_Square_o">	    70065	</integer>
+    <integer name="Porter_Square_i">	    70066	</integer>
+    <integer name="Harvard_Square_o">	    70067	</integer>
+    <integer name="Harvard_Square_i">	    70068	</integer>
+    <integer name="Central_Square_o">	    70069	</integer>
+    <integer name="Central_Square_i">	    70070	</integer>
+    <integer name="Kendall_o">	            70071	</integer>
+    <integer name="Kendall_i">	            70072	</integer>
+    <integer name="Charles_o">	            70073	</integer>
+    <integer name="Charles_i">	            70074	</integer>
+    <integer name="Park_Street_o">	        70075	</integer>
+    <integer name="Park_Street_i">	        70076	</integer>
+    <integer name="Downtown_Crossing_ro">	70077	</integer>
+    <integer name="Downtown_Crossing_ri">	70078	</integer>
+    <integer name="South_Station_o">	    70079	</integer>
+    <integer name="South_Station_i">	    70080	</integer>
+    <integer name="Broadway_o">	            70081	</integer>
+    <integer name="Broadway_i">	            70082	</integer>
+    <integer name="Andrew_o">	            70083	</integer>
+    <integer name="Andrew_i">	            70084	</integer>
+    <integer name="JFK_a">	                70085	</integer>
+    <integer name="JFK_ai">	                70086	</integer>
+    <integer name="Savin_Hill_o">	        70087	</integer>
+    <integer name="Savin_Hill_i">	        70088	</integer>
+    <integer name="Fields_Corner_o">	    70089	</integer>
+    <integer name="Fields_Corner_i">	    70090	</integer>
+    <integer name="Shawmut_o">        	    70091	</integer>
+    <integer name="Shawmut_i">        	    70092	</integer>
+    <integer name="Ashmont_o">	            70093	</integer>
+    <integer name="Ashmont_i">	            70094	</integer>
+    <integer name="JFK_b">	                70095	</integer>
+    <integer name="JFK_bi">	                70096	</integer>
+    <integer name="North_Quincy_o">	        70097	</integer>
+    <integer name="North_Quincy_i">	        70098	</integer>
+    <integer name="Wollaston_o">     	    70099	</integer>
+    <integer name="Wollaston_i">        	70100	</integer>
+    <integer name="Quincy_Center_o">        70101	</integer>
+    <integer name="Quincy_Center_i">        70102	</integer>
+    <integer name="Quincy_Adams_o">	        70103	</integer>
+    <integer name="Quincy_Adams_i">         70104	</integer>
+    <integer name="Braintree">	            70105	</integer>
+
+    <!--orange line-->
+    <integer name="Forest_Hills_o">	        70000	</integer>
+    <integer name="Forest_Hills_i">	        70001	</integer>
+    <integer name="Green_Street_i">	        70002	</integer>
+    <integer name="Green_Street_o">	        70003	</integer>
+    <integer name="Stony_Brook_i">	        70004	</integer>
+    <integer name="Stony_Brook_o">	        70005	</integer>
+    <integer name="Jackson_Square_i">	    70006	</integer>
+    <integer name="Jackson_Square_o">	    70007	</integer>
+    <integer name="Roxbury_Crossing_i">	    70008	</integer>
+    <integer name="Roxbury_Crossing_o">	    70009	</integer>
+    <integer name="Ruggles_i">	            70010	</integer>
+    <integer name="Ruggles_o">	            70011	</integer>
+    <integer name="Mass_Ave_i">	            70012	</integer>
+    <integer name="Mass_Ave_o">	            70013	</integer>
+    <integer name="Back_Bay_i">	            70014	</integer>
+    <integer name="Back_Bay_o">	            70015	</integer>
+    <integer name="Tufts_Medical_i">	    70016	</integer>
+    <integer name="Tufts_Medical_o">	    70017	</integer>
+    <integer name="Chinatown_i">	        70018	</integer>
+    <integer name="Chinatown_o">	        70019	</integer>
+    <integer name="Downtown_Crossing_oi">	70020	</integer>
+    <integer name="Downtown_Crossing_oo">	70021	</integer>
+    <integer name="State_Street_oi">	    70022	</integer>
+    <integer name="State_Street_oo">	    70023	</integer>
+    <integer name="Haymarket_i">	        70024	</integer>
+    <integer name="Haymarket_o">	        70025	</integer>
+    <integer name="North_Station_i">	    70026	</integer>
+    <integer name="North_Station_o">	    70027	</integer>
+    <integer name="Community_College_i">	70028	</integer>
+    <integer name="Community_College_o">	70029	</integer>
+    <integer name="Sullivan_i">	            70030	</integer>
+    <integer name="Sullivan_o">	            70031	</integer>
+    <integer name="Wellington_i">	        70032	</integer>
+    <integer name="Wellington_o">	        70033	</integer>
+    <integer name="Malden_Center_i">	    70034	</integer>
+    <integer name="Malden_Center_o">	    70035	</integer>
+    <integer name="Oak_Grove_i">	        70036	</integer>
+    <integer name="Oak_Grove_o">	        70037	</integer>
+    <integer name="Assembly_i">	            70278	</integer>
+    <integer name="Assembly_o">	            70279	</integer>
+
+    <!--Blue Line-->
+
+    <integer name="Bowdoin_i">	            70037	</integer>
+    <integer name="Bowdoin_o">	            70038	</integer>
+    <integer name="Government_Center_i"> 	70039	</integer>
+    <integer name="Government_Center_o">	70040	</integer>
+    <integer name="State_Street_bi">	    70041	</integer>
+    <integer name="State_Street_bo">	    70042	</integer>
+    <integer name="Aquarium_i">	            70043	</integer>
+    <integer name="Aquarium_o">	            70044	</integer>
+    <integer name="Maverick_i">	            70045	</integer>
+    <integer name="Maverick_o">	            70046	</integer>
+    <integer name="Airport_i">	            70047	</integer>
+    <integer name="Airport_o">	            70048	</integer>
+    <integer name="Wood_Island_i">	        70049	</integer>
+    <integer name="Wood_Island_o">	        70050	</integer>
+    <integer name="Orient_Heights_i">       70051	</integer>
+    <integer name="Orient_Heights_o">	    70052	</integer>
+    <integer name="Suffolk_Downs_i">	    70053	</integer>
+    <integer name="Suffolk_Downs_o">	    70054	</integer>
+    <integer name="Beachmont_i">         	70055	</integer>
+    <integer name="Beachmont_o">	        70056	</integer>
+    <integer name="Revere_Beach_i">	        70057	</integer>
+    <integer name="Revere_Beach_o">	        70058	</integer>
+    <integer name="Wonderland_i">	        70059	</integer>
+    <integer name="Wonderland_o">	        70060	</integer>
+
+    
+</resources>

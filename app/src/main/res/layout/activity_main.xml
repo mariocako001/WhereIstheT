@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context="com.example.carlosturcios.whereisthet.MainActivity">
+
+
+    <TextView
+        android:id="@+id/outbound"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/droid_sans"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/outboundText" />
+
+    <TextView
+        android:id="@+id/inbound"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/droid_sans"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inboundText" />
+
+
+    <Spinner
+        android:id="@+id/trainLine"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="25dp"
+        android:background="@color/sysGray"
+        android:entries="@array/TrainLines"
+        android:spinnerMode="dropdown"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/stationList"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="25dp"
+        android:background="@color/sysGray"
+        app:layout_constraintTop_toBottomOf="@+id/trainLine" />
+
+    <TextView
+        android:id="@+id/inboundText"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginTop="50dp"
+        android:background="@color/sysGray"
+        android:text="Inbound:   "
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@+id/stationList"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/outboundText"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/sysGray"
+        android:text="Outbound:"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@+id/inbound" />
+
+</android.support.constraint.ConstraintLayout>
